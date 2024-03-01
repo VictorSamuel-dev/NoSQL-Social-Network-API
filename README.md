@@ -12,21 +12,30 @@ by Victor Samuel
 * [License](#license)
 
 ## Description
-This back-end application allows users to run the database for e-commerce websites using Express.js API and Sequelize to connect to the MYSQL database. As a user you can create a development database, seed it with test data, and sync Sequelize models to MySQL database. As a user you have the ability to GET, POST, PUT and DELETE routes to display and manipulate data in the user’s database.
+This API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. You’ll use Express.js for routing, a MongoDB database, and the Mongoose ODM
 ## Requirements
-undefined
+- GIVEN a social network API
+- WHEN I enter the command to invoke the application
+- THEN my server is started and the Mongoose models are - synced to the MongoDB database
+- WHEN I open API GET routes in Insomnia for users and thoughts
+- THEN the data for each of these routes is displayed in a formatted JSON
+- WHEN I test API POST, PUT, and DELETE routes in Insomnia
+- THEN I am able to successfully create, update, and delete users and thoughts in my database
+- WHEN I test API POST and DELETE routes in Insomnia
+- THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 ## Usage
-JSON, Dynamic JavaScript, Dotenv: 8.2.0, Express: 4.17.1, Node.js, Express.js, Node MySql2: 2.1.0, Sequelize: 6.35.1
+- express": "^4.18.2",
+- mongodb": "^6.3.0",
+- mongoose": "^7.0.2"
+- nodemon": "^2.0.21"
 ## Contact-Me
 * Name - Victor Samuel
 * Email - victorsamuel196@gmail.com
 * GitHub - [VictorSamuel-dev](https://github.com/VictorSamuel-dev/)
-## Contributors
-N/A
-## Testing
-```
-N/A
-```
+## GitHub Repo
+[GitHub Repo](https://github.com/VictorSamuel-dev/NoSQL-Social-Network-API)
+## Demo
+[Demo](https://www.loom.com/share/851c8c5b983e49f6a722b08c6b1ab8c9?sid=9322e44b-4d0d-4b49-bee6-8827fa179001)
 ## License
       
       Licensed under the MIT license.
